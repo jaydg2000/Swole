@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Swole">
         <activity
+            android:name=".SelectUserActivity"
+            android:exported="true"
+            android:label="@string/title_activity_select_user"
+            android:theme="@style/Theme.Swole">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
